@@ -15,11 +15,10 @@
 # limitations under the License.
 #
 
-include device/lge/g2-common/BoardConfigCommon.mk
+include device/lge/z-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := lineageos_d802_defconfig
+TARGET_KERNEL_CONFIG := z-skt-perf_defconfig
 
-TARGET_OTA_ASSERT_DEVICE := d802,g2,galbi,d800
+TARGET_OTA_ASSERT_DEVICE := f340,z,galbi
 
-G2_DTS_TARGET := msm8974-g2-open_com
-
+Z_DTS_TARGET := msm8974-z-kr
